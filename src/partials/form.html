@@ -1,0 +1,113 @@
+<!-- <form class="contact-form">
+  <label class="contact-form-field-label" for="user-name">Name</label>
+  <input class="contact-form-input" type="text" placeholder="John" id="user-name" name="user-first-name" required/>
+  <label class="contact-form-field-label" for="user-email">Email</label>
+  <input class="contact-form-input" type="text" placeholder="john@gmail.com" id="user-email" name="user-email" required/>
+  <label class="contact-form-field-label" for="user-phone">Phone</label>
+  <input class="contact-form-input" type="text" placeholder="xxx-xxx-xx-xx" id="user-phone" name="user-phone" requiredт/>
+  <div class="contact-form-btn-wrapper">
+      <button class="contact-form-btn contact-form-btn-submit" type="submit">
+        Submit
+      </button>
+      <button class="contact-form-btn contact-form-btn-reset" type="reset">
+        Clear
+      </button>
+  </div>
+</form> -->
+
+<form class="contact-form">
+  <p class="contact-form-title">Fill the form</p>
+  <label class="contact-form-label" for="user-name">Name</label>
+  <input
+    class="contact-form-input"
+    type="text"
+    placeholder="John"
+    id="user-name"
+    name="user-name"
+    required
+  />
+  <label class="contact-form-label" for="user-email">Email</label>
+  <input
+    class="contact-form-input"
+    type="email"
+    placeholder="mail@gmail.com"
+    id="user-email"
+    name="user-email"
+  />
+  <label class="contact-form-label" for="user-phone">Phone</label>
+  <input
+    class="contact-form-input"
+    type="tel"
+    placeholder="xxx-xxx-xx-xx"
+    id="user-phone"
+    name="user-phone"
+  />
+  <label>
+    Province
+    <select class="contact-form-select-province" name="user-province">
+      <option value="none">-select province-</option>
+      <optgroup label="The Atlantic Region">
+        <option value="NL">NL</option>
+        <option value="PE">PE</option>
+        <option value="NS">NS</option>
+        <option value="NB">NB</option>
+      </optgroup>
+      <optgroup label="Central Canada">
+        <option value="QC">QC</option>
+        <option value="ON">ON</option>
+      </optgroup>
+      <optgroup label="The Prairie Provinces">
+        <option value="MB">MB</option>
+        <option value="SK">SK</option>
+        <option value="AB">AB</option>
+      </optgroup>
+      <optgroup label="The West Coast">
+        <option value="BC">BC</option>
+      </optgroup>
+      <optgroup label="The North">
+        <option value="NU">NU</option>
+        <option value="NT">NT</option>
+        <option value="YT">YT</option>
+      </optgroup>
+    </select>
+  </label>
+
+  <fieldset class="contact-form-radio-input">
+    <legend class="contact-form-fieldset-legend">Gender</legend>
+    <label for="user-gender-male">Male</label>
+    <input
+      class="contact-form-fieldset-radio"
+      type="radio"
+      name="user-gender"
+      id="user-gender-male"
+      value="Male"
+    />
+    <label for="user-gender-female">Female</label>
+    <input
+      class="contact-form-fieldset-radio"
+      type="radio"
+      name="user-gender"
+      id="user-gender-female"
+      value="Female"
+    />
+  </fieldset>
+  <fieldset class="contact-form-radio-input comunication">
+    <label class="contact-form-checkbox">
+      Send massage
+      <input type="checkbox" name="user-comunication" value="send-message" />
+    </label>
+    <label class="contact-form-checkbox">
+      Call me
+      <input type="checkbox" name="user-comunication" value="call" />
+    </label>
+  </fieldset>
+  <textarea class="contact-form-textarea-field" name="user-coment"></textarea>
+  <div class="contact-form-btn-wrapper">
+    <button class="contact-form-btn contact-form-btn-submit" type="submit">
+      Submit
+    </button>
+    <button class="contact-form-btn contact-form-btn-reset" type="reset">
+      Clear
+    </button>
+  </div>
+</form>
